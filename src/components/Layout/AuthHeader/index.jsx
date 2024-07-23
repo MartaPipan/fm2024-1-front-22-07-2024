@@ -11,7 +11,6 @@ const AuthHeader = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.loginContainer}>
         <div className={styles.headerAuthPage}>
           <Logo src={`${CONSTANTS.STATIC_IMAGES_PATH}logo.png`} alt="logo" />
           <div className={styles.linkAuthContainer}>
@@ -19,7 +18,6 @@ const AuthHeader = () => {
               <span>{isLoginPage ? 'Signup' : 'Login'}</span>
             </Link>
           </div>
-        </div>
       </div>
     </div>
   );
