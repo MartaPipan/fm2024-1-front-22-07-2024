@@ -9,6 +9,13 @@ const Logo = ({ to, ...props }) => (
   </Link>
 );
 
+
+Logo.defaultProps = {
+  to: '/',
+  src: `${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`,
+  alt: 'logo',
+};
+
 Logo.propTypes = {
   className: PropTypes.string,
   to: PropTypes.string,
@@ -16,10 +23,5 @@ Logo.propTypes = {
   alt: PropTypes.string,
 };
 
-Logo.defaultProps = {
-  to: '/',
-  src: `${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`,
-  alt: 'logo',
-};
 
 export default Logo;
