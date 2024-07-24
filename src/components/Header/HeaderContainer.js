@@ -2,7 +2,7 @@ import React from 'react';
 import FixedHeader from './FixedHeader';
 import LoginSignUpHeader from './LoginSignUpHeader';
 import NavContainer from './NavContainer';
-import styles from './Header1.module.sass';
+import styles from './Header.module.sass';
 
 const HeaderContainer = () => {
   return (

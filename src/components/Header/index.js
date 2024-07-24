@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { getUser } from '../../store/slices/userSlice';
 import HeaderContainer from './HeaderContainer';
 
-const Header1 = () => {
+const Header = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -13,4 +13,4 @@ const Header1 = () => {
   return <HeaderContainer />;
 };
 
-export default Header1;
+export default Header;

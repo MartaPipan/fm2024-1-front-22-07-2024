@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Header1.module.sass';
+import styles from './Header.module.sass';
 
 const FixedHeader = () => (
   <div className={styles.fixedHeader}>

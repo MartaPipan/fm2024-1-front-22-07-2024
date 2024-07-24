@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import styles from './Header1.module.sass';
+import styles from './Header.module.sass';
 import CONSTANTS from '../../constants';
 import Logo from './Logo';
 

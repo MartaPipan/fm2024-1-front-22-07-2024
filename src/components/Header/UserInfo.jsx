@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Header1.module.sass';
+import styles from './Header.module.sass';
 import CONSTANTS from '../../constants';
 
 const UserInfo = ({ data, logOut }) => (
