@@ -116,7 +116,7 @@ const Header = () => {
           </div>
         </div>
         <div className={styles.navContainer}>
-          <Logo
+         <img
             src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`}
             className={styles.logo}
             alt="blue_logo"
