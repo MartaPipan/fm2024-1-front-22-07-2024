@@ -30,18 +30,18 @@ const NavContainer = () => {
                 alt="menu"
               />
               <ul>
-                <li><a href="http://www.google.com">Beauty</a></li>
-                <li><a href="http://www.google.com">Consulting</a></li>
-                <li><a href="http://www.google.com">E-Commerce</a></li>
-                <li><a href="http://www.google.com">Fashion & Clothing</a></li>
-                <li><a href="http://www.google.com">Finance</a></li>
-                <li><a href="http://www.google.com">Real Estate</a></li>
-                <li><a href="http://www.google.com">Tech</a></li>
-                <li className={styles.last}><a href="http://www.google.com">More Categories</a></li>
+                <li><a href="http://www.google.com">BEAUTY</a></li>
+                <li><a href="http://www.google.com">CONSULTING</a></li>
+                <li><a href="http://www.google.com">E-COMMERCE</a></li>
+                <li><a href="http://www.google.com">FASHION & CLOTHING</a></li>
+                <li><a href="http://www.google.com">FINANCE</a></li>
+                <li><a href="http://www.google.com">REAL ESTATE</a></li>
+                <li><a href="http://www.google.com">TECH</a></li>
+                <li><a href="http://www.google.com" className={styles.last}>MORE CATEGORIAS</a></li>
               </ul>
             </li>
             <li>
-              <span>CONTESTS</span>
+              <span>CONTEST</span>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
                 alt="menu"
@@ -53,11 +53,11 @@ const NavContainer = () => {
                 <li><a href="http://www.google.com">ACTIVE CONTESTS</a></li>
                 <li><a href="http://www.google.com">WINNERS</a></li>
                 <li><a href="http://www.google.com">LEADERBOARD</a></li>
-                <li className={styles.last}><a href="http://www.google.com">BECOME A CREATIVE</a></li>
+                <li><a href="http://www.google.com" className={styles.last}>BECOME A CREATIVE</a></li>
               </ul>
             </li>
             <li>
-              <span>Our Work</span>
+              <span>OUR WORK</span>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
                 alt="menu"
@@ -66,11 +66,11 @@ const NavContainer = () => {
                 <li><a href="http://www.google.com">NAMES</a></li>
                 <li><a href="http://www.google.com">TAGLINES</a></li>
                 <li><a href="http://www.google.com">LOGOS</a></li>
-                <li className={styles.last}><a href="http://www.google.com">TESTIMONIALS</a></li>
+                <li><a href="http://www.google.com" className={styles.last}>TESTIMONIALS</a></li>
               </ul>
             </li>
             <li>
-              <span>Names For Sale</span>
+              <span>NAMES FOR SALE</span>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
                 alt="menu"
@@ -81,11 +81,11 @@ const NavContainer = () => {
                 <li><a href="http://www.google.com">INTRIGUING NAMES</a></li>
                 <li><a href="http://www.google.com">NAMES BY CATEGORY</a></li>
                 <li><a href="http://www.google.com">VISUAL NAME SEARCH</a></li>
-                <li className={styles.last}><a href="http://www.google.com">SELL YOUR DOMAINS</a></li>
+                <li><a href="http://www.google.com" className={styles.last}>SELL YOUR DOMAINS</a></li>
               </ul>
             </li>
             <li>
-              <span>Blog</span>
+              <span>BLOG</span>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
                 alt="menu"
@@ -94,7 +94,7 @@ const NavContainer = () => {
                 <li><a href="http://www.google.com">ULTIMATE NAMING GUIDE</a></li>
                 <li><a href="http://www.google.com">POETIC DEVICES IN BUSINESS NAMING</a></li>
                 <li><a href="http://www.google.com">CROWDED BAR THEORY</a></li>
-                <li className={styles.last}><a href="http://www.google.com">ALL ARTICLES</a></li>
+                <li><a href="http://www.google.com" className={styles.last}>ALL ARTICLES</a></li>
               </ul>
             </li>
           </ul>
