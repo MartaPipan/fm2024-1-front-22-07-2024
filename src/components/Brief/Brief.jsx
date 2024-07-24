@@ -9,7 +9,7 @@ import withRouter from '../../hocs/withRouter';
 import ContestForm from '../ContestForm/ContestForm';
 import styles from './Brief.module.sass';
 import ContestInfo from '../Contest/ContestInfo/ContestInfo';
-import Error from '../Error/Error';
+import Error from '../Error';
 
 const Brief = (props) => {
   const setNewContestData = (values) => {

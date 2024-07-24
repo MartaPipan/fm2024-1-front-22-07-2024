@@ -8,7 +8,7 @@ import UserInfo from '../../components/UserInfo/UserInfo';
 import PayForm from '../../components/PayForm/PayForm';
 import { cashOut, clearPaymentStore } from '../../store/slices/paymentSlice';
 import { changeProfileViewMode } from '../../store/slices/userProfileSlice';
-import Error from '../../components/Error/Error';
+import Error from '../../components/Error';
 
 const UserProfile = (props) => {
   const pay = (values) => {

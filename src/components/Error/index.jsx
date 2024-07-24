@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useCallback } from 'react';
+import PropTypes from 'prop-types';
 import styles from './Error.module.sass';
 
-const Error = props => {
-  const getMessage = () => {
-    const { status, data } = props;
+const Error = ({ status, data, clearError }) => {
+  const getMessage = useCallback(() => {
     switch (status) {
       case 404:
         return data;
@@ -18,15 +18,20 @@ const Error = props => {
       default:
         return 'Server Error';
     }
-  };
+  }, [status, data]);
 
-  const { clearError } = props;
   return (
     <div className={styles.errorContainer}>
       <span>{getMessage()}</span>
-      <i className='far fa-times-circle' onClick={() => clearError()} />
+      <i className='far fa-times-circle' onClick={clearError} />
     </div>
   );
+};
+
+Error.propTypes = {
+  status: PropTypes.number.isRequired,
+  data: PropTypes.string,
+  clearError: PropTypes.func.isRequired,
 };
 
 export default Error;

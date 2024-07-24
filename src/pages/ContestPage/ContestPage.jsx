@@ -23,7 +23,7 @@ import Brief from '../../components/Brief/Brief';
 import Spinner from '../../components/Spinner/Spinner';
 import TryAgain from '../../components/TryAgain/TryAgain';
 import 'react-18-image-lightbox/style.css';
-import Error from '../../components/Error/Error';
+import Error from '../../components/Error';
 
 class ContestPage extends React.Component {
   componentWillUnmount() {
